@@ -21,6 +21,7 @@
     width: 100%;
     max-width: 500px;
     border-radius: 30px;
+    overflow: hidden;
     
 }
 .progress{
@@ -28,6 +29,7 @@
     height: 100%;
     width: 100%;
     background: linear-gradient(30deg,red, green, blue);
+    transition: 3s ease-in-out;
 }
 
 .counter{
@@ -43,9 +45,8 @@ input{
     padding: 10px;
     font-weight: bolder;
     text-align: center;
-    /* height: 50px;
-    width: 50px; */
-    /* padding: 50px; */
-    /* border-radius: 50%; */
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
     
 }
